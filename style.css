@@ -1,0 +1,266 @@
+body{
+    background-color: black;
+}
+
+.nav-bar{
+    /* border:2px solid white; */
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+
+
+    
+}
+
+.brand{
+    color:white;
+    padding-left:35px;
+    
+    
+}
+.links{
+    display:flex;
+    gap:20px;
+    
+    align-items:end;
+    
+
+
+}
+.links a{
+    list-style: none;
+    
+    font-size:20px;
+    text-decoration: none;
+    color:white
+}
+
+.links .active_tag{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    color:yellow;
+
+}
+
+.links a:hover{
+    
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    color:yellow;
+    
+}
+
+
+
+.description{
+    display:flex;
+    /* border:2px solid white; */
+    margin-top:20px;
+    justify-content: space-around;
+    
+    padding-left:0px;
+    font-size:20px;
+    width:100%;
+    /* margin-left:100px; */
+    /* padding-left:50px; */
+    
+
+}
+.data{
+    color:white;
+    border:2px solid white;
+    /* padding:50px; */
+    
+    justify-content:flex-end;
+
+}
+.color-apply{
+    color:yellow;
+}
+.data button{
+    background-color: yellow;
+    color:white;
+    border:5px solid black;
+    border-radius:20px;
+    color:black;
+    border-collapse: collapse;
+    width:150px;
+    height:40px;
+
+    
+   
+}
+.image1 img{
+    height:400px;
+    width:250px;
+    /* border: 2px solid red; */
+    /* padding-right: 300px; */
+    
+    
+}
+
+.about-page{
+    display:flex;
+    /* border:5px solid white; */
+    justify-content:center;
+    align-items:center;
+}
+.about-section{
+    color:white;
+}
+.image2 img{
+    height:400px;
+    width:250px;
+    padding-left:150px;
+    padding-right:200px;;
+    
+
+
+}
+.about-section h1{
+    padding-left:40px;
+    padding-right:500px;
+    width:400px;
+    border:2px solid white;
+    
+}
+.about-section p{
+    padding-left:40px;
+    padding-right:150px;
+    font-size:1.2rem;
+    text-align: justify;
+
+}
+table{
+    padding-left:40px;
+    padding-right:150px;
+    font-size:1.2rem;
+    
+}
+.about-section button{
+    width:150px;
+    height:40px;
+    margin-left: 30px;
+    border-collapse: collapse;
+    border-radius: 20px;
+    background-color: yellow;
+    color: black;
+}
+.Resume-part{
+    /* border:2px solid white; */
+    text-align:center;
+    color:white;
+    padding-top:50px;
+}
+.Resume-part p{
+    padding-left:250px;
+    padding-right:250px;
+    font-size:1.2rem;
+
+
+
+}
+.container{
+    display:grid;
+    gap: 30px;
+    color:white;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    border-radius: 5px;
+    height:150px;
+    width:1000px;
+    font-size:1.2 rem;
+    justify-content: center;
+    margin:auto;
+    padding-top:50px;
+    
+}
+.card{
+    /* border:5px solid white; */
+    padding:10px;
+    text-align: justify;
+}
+.overview{
+    color:yellow;
+    font-size:20px;
+}
+.overview+p{
+    color:yellow;
+    font-size:20px;
+
+}
+.sub{
+    font-size:1.2 rem;
+}
+.download{
+    background-color: yellow;
+    color:white;
+    border:5px solid black;
+    border-radius:20px;
+    color:black;
+    border-collapse: collapse;
+    width:150px;
+    height:40px;
+
+}
+@media (max-width:1000px){
+    .links{
+        display:none;
+    }
+    .menu{
+        display:block;
+        color:yellow;
+        
+    
+    }
+    .brand{
+        margin-right: 500px;
+    }
+
+
+
+}
+@media (max-width:400px){
+
+.description{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    /* border: 10px solid red; */
+    width: 600px;
+    align-items: center;
+   
+}
+}
+@media (min-width:1000px) and (max-width:1500px){
+    .description{
+        display:flex;
+        justify-content: left;
+    }
+    .data {
+        padding: 20px;
+        margin-left: 100px;
+        
+    }
+
+    .image1 {
+        margin-left: 400px;
+        margin-right:100px ;
+    }
+
+    .image1 img {
+        width: 200px;
+        height: auto;
+    }
+}
+@media (max-width:1100px){
+    .about-section h1{
+     width:30px;
+}
+
+}
+@media (min-width:100px) and (min-width:1200px){
+
+}
+
+
